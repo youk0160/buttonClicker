@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div id="navBar" class="flex">
+        <h1>Dojonary</h1>
+        <input type="text" id="searchBar" name="searchBar" value="Search">
+        <input type="button" onclick="logout(this)" id="loginButton" value="Login" class="boxShadow">
+    </div>
+    <div id="contentWrap" class="flex">
+        <div id="contentLeft">
+            <div class="box flex">
+                <div class="cardLeft">
+                    <h1>ninja</h1>
+                    <h4 class="italic">noun</h4>
+                    <h5>Plural:<span class="italic">ninjas</span></h5>
+                    <input type="button" value="13 likes" class="boxShadow">
+                </div>
+                <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+            </div>
+            <div class="box flex">
+                <div class="cardLeft">
+                    <h1>ninja</h1>
+                    <h4 class="italic">noun</h4>
+                    <h5>Plural:<span class="italic">ninjas</span></h5>
+                    <input type="button" value="37 likes" class="boxShadow">
+                </div>
+                <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+            </div>
+        </div>
+        <div id="contentRight" class="box">
+            <h2>Dojonary is defined by <span class="strong">YOU</span></h2>
+            <input type="button" onclick="hide(this)" value="Add Definition" class="boxShadow">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
